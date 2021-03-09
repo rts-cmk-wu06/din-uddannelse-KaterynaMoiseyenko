@@ -1,0 +1,33 @@
+.hero-image {
+    background-image: url(https://www.rts.dk/images/klar-til-uddannelse/klar-til-uddannelse_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 210px;
+
+}
+form {
+    position: relative;
+    text-align: center;
+}
+section h1 {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+input {
+    width: 236px;
+    height: 45px;
+    border: solid 2px #c40000;
+    border-radius: 25px;
+    outline: none;
+    padding-left: 45px;
+    background-color: white;
+}
+ i.fa-search {
+     position: absolute;
+     top: 50%;
+     transform: translate(100%, -50%);
+     color: #c40000;
+ }

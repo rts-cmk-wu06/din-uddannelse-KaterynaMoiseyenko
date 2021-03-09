@@ -1,0 +1,43 @@
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article>section {
+    background-color: #c40000;
+    color: white;
+    width: 90vw;
+    height: 40px;
+    margin-top: 18px;
+
+}
+body > article > section > h3{
+    margin: 0;
+    padding: 5px 10px;
+}
+body > article > img {
+    width: 90vw;
+}
+
+article>article {
+    background-color: #f1ebeb;
+    width: 90vw;
+    padding-bottom: 15px;
+}
+article>article>h2 {
+    padding: 10px 10px 0 20px;
+}
+article>article>p {
+    padding: 0 10px 0 20px;
+    margin: 0;
+}
+body > article > article > a {
+    background-color: #c40000;
+    color: white;
+    align-self: flex-end;
+    width: 157px;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}

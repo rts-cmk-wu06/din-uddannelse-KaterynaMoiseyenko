@@ -1,0 +1,77 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 375px;
+    background-color: #c40000;
+    color: white;
+}
+label {
+    align-self: flex-end;
+    cursor: pointer;
+    color: white;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+
+input[type="checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ nav{
+    display: block;
+}
+
+nav {
+    display: none;
+    flex-basis: 100%;
+}
+header img {
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+header>p {
+    margin: 0;
+    align-self: flex-end;
+    padding-bottom: 10px;
+}
+ul {
+    padding: 10px;
+    list-style: none;
+}
+body > header > nav > ul > li:nth-child(1) > a,
+body > header > nav > ul > li:nth-child(2) > a, 
+body > header > nav > ul > li:nth-child(3) > a, 
+body > header > nav > ul > li:nth-child(4) > a {
+    color: white;
+    text-decoration: none;
+    
+}
+body > header > nav > ul > li:nth-child(2) > a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.logoheader {
+    padding: 10px;
+}
+
+@media(min-width: 376px) {
+    body > header > p{
+        display: none;
+    }
+    nav {
+        display: block;
+        flex: 1;
+    }
+    ul {
+        display: flex;
+    }
+    label {
+        display: none;
+    }
+    
+}

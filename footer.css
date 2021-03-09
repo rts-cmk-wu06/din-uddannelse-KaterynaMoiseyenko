@@ -1,0 +1,21 @@
+footer {
+    background-color: #5d4646;
+    color: white;
+    margin-top: 20px;
+    width: 375px;
+}
+.footer_template {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footernav {
+    padding-top: 25px;
+}
+.copyright{
+    text-align: center;
+    padding-bottom: 10px;
+}
+body > footer > div.copyright > p {
+    margin: 0;
+}
